@@ -1026,8 +1026,8 @@ bot.command("lanjutdor", async (msg) => {
         nama_paket: "Paket Kere Hore",
         nomor_hp: nomor_hp,
         payment: "pulsa",
-        id_telegram: "#", // Ganti dengan ID Telegram Anda
-        password: "#", // Ganti dengan password yang sesuai
+        id_telegram: "6904837223", // Ganti dengan ID Telegram Anda
+        password: "tuyulbot", // Ganti dengan password yang sesuai
         access_token: access_token
     };
 
