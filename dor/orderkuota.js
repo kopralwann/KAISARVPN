@@ -8,6 +8,7 @@ const LOG_FILE = path.join(__dirname, 'bot.log');
 
 // Konfigurasi QRIS Statis dan Okeconnect
 const QRIS_CONFIG = {
+}
 const QRISPayment = require('qris-payment');
 const fs = require('fs');
 
@@ -36,7 +37,6 @@ async function main() {
 }
 
 main();
-
 // Konfigurasi Rate Limiting
 const RATE_LIMIT = {
     maxRequests: 5,
